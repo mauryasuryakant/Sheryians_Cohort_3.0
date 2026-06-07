@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background: lightseagreen;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+    background: crimson;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box3 {
+    height: 200px;
+    width: 200px;
+    background: palevioletred;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.box4 {
+    height: 200px;
+    width: 200px;
+    background: royalblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 94px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
