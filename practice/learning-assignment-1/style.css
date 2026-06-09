@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 900; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: #111; */
+    color: #000000;
+}
+
+.parent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 60%;
+    /* background-color: #F8A8C8; */
+    background-color: #F6B3D8;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.right {
+    height: 100%;
+    width: 40%;
+    /* background-color: #FFF0F6; */
+    background-color: #FFEAF3;
+}
+
+.icon {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.Mimikyu {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pokemon-logo {
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.pokeball {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: -10%;
+    left: 5%;
+
+}
+
+.text1 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    /* font: bold; */
+
+}
+.text2 {
+    font-size: 100px;
+    font-weight: 900;
+    font: bold;
+
+}
+.text3 {
+    font-size: 28px;
+    font-weight: 100;
+    width: 80%;
+    /* font: bold; */
+    line-height: 35px;
+
+}
+.text4 {
+    font-size: 28px;
+    font-weight: 400;
+    font: bold;
+    margin-top: 20px;
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+
+}
+
+.joinned {
+    letter-spacing: -2px;
+}
