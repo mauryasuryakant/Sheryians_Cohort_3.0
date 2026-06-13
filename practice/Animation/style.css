@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+    animation-name: move;
+    /* animation-name: back; */
+    animation-duration: 2s;
+    position: absolute;
+}
+
+
+@keyframes move {
+    from {
+        top: 0;
+    }
+    to {
+        top: 60%;
+        background-color: red;
+    }
+}
+
+@keyframes back {
+    from {
+        top: 60%;
+    }
+    to {
+        top: 0;
+    }
+}
