@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 10% 45% 45%;
+    grid-template-areas: 
+    "nav nav"
+    "heading heading"
+    "left-bottom right-bottom"
+    ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    grid-area: nav;
+}
+
+h1 {
+    background-color: #fff;
+    grid-area: heading;
+    color: #111;
+    font-size: 22vh;
+    line-height: 1;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    /* justify-items: center; */
+}
+
+.center-text {
+    font-size: 18vh;
+    color: #111;
+}
+
+.left-bottom {
+    background-color: #fff;
+    grid-area: left-bottom;
+    padding-top: 50px;
+    /* padding-left: -20px; */
+}
+
+.left-bottom span {
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.right-bottom {
+    padding: 50px;
+    padding-left: -20px;
+    background-color: #fff;
+    grid-area: right-bottom;
+    font-size: 5vh;
+}
